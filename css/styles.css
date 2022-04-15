@@ -131,6 +131,10 @@ padding: 32px 0px;
     display: block;
 }
 
+.header-icon {
+    width: 100px;
+    height: 100px;
+}
 
 
 /* hero-index */
