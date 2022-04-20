@@ -222,7 +222,7 @@ display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-bottom: 56px;
+    margin-bottom: 50px;
     }
 
 .hero-list {
@@ -416,8 +416,12 @@ display: flex;
     margin-right: 30px;
 }
 
+.team-item:last-child {
+    margin-right: 0px;
+}
+
 .team-text {
-    padding: 30px 66px;
+    padding: 30px 32px;
     text-align: center;
     display: block;
   }
@@ -572,6 +576,11 @@ color: var(--first-title-color);
 
 .footer-address-item, .footer-contacts-item {
 margin-bottom: 9px;
+}
+
+.footer-contacts-item:last-child {
+padding: 0px;
+margin-bottom: 0px;
 }
 
 .logo-footer{
